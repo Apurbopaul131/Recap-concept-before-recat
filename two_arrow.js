@@ -5,3 +5,17 @@
 */
 const twoInputArrow = (num1,num2) => (num1 + num2)/4;
 console.log(twoInputArrow(10,14));
+console.log(twoInputArrow(25,15));
+/*
+একাধিক লাইনওয়ালা অ্যারো ফাংশন লিখো। সেটাতে দুইটা প্যারামিটার নিবে।
+ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। 
+সেখানে প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ৫ যোগ করবে তারপর যোগফল দুইটাকে আবার গুণ করবে।
+ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো।
+*/
+const twoSumMultiple = (n1,n2) => {
+    const newN1 = n1 + 5;
+    const newN2 = n2 + 5;
+    return newN1 * newN2;
+
+}
+console.log(twoSumMultiple(5,10));//output:150
